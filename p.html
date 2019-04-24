@@ -112,7 +112,7 @@
     var path = d3.geoPath()
         .projection(projection);
 
-    d3.json("01.json", function(error, uk) {
+    d3.json("data/01.json", function(error, uk) {
         if (error) return console.error(error);
 
         svg.append("g")
